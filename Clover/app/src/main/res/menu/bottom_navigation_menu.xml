@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemNewFeed" android:title="@string/newFeed"
+        app:showAsAction="always" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/itemSearch" android:title="@string/search"
+        app:showAsAction="always" android:icon="@drawable/ic_search"/>
+    <item android:id="@+id/itemMessage" android:title="@string/message"
+        app:showAsAction="always" android:icon="@drawable/ic_mesgae"/>
+    <item android:id="@+id/itemProfile" android:title="@string/profile"
+        app:showAsAction="always" android:icon="@drawable/ic_profile"/>
+</menu>

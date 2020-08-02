@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".fragment.RegisterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.ben.clover.view.LogoTextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/logo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_70ssp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:id="@+id/edtUserNameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_100sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/background_edt_username"
+                android:elevation="@dimen/_2sdp"
+                android:hint="@string/userNameInput"
+                android:inputType="text"
+                android:padding="@dimen/_10sdp" />
+
+            <EditText
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:id="@+id/edtNameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/background_edt_username"
+                android:elevation="@dimen/_2sdp"
+                android:hint="@string/nameInput"
+                android:inputType="text"
+                android:padding="@dimen/_10sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/edtPasswordRegister"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_username"
+                    android:elevation="@dimen/_2sdp"
+                    android:hint="@string/passwordInput"
+                    android:inputType="numberPassword"
+                    android:maxLength="7"
+                    android:padding="@dimen/_10sdp" />
+
+                <EditText
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/edtRePasswordRegister"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edt_username"
+                    android:elevation="@dimen/_2sdp"
+                    android:hint="@string/passwordInput"
+                    android:inputType="numberPassword"
+                    android:maxLength="7"
+                    android:padding="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/edtDateBirthRegister"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_edt_username"
+                        android:elevation="@dimen/_2sdp"
+                        android:focusable="false"
+                        android:hint="@string/dateBirth"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/_10sdp" />
+
+                    <EditText
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/edtMonthBirthRegister"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_edt_username"
+                        android:elevation="@dimen/_2sdp"
+                        android:focusable="false"
+                        android:hint="@string/monthBirth"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/_10sdp" />
+
+                    <EditText
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/edtYearBirthRegister"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_edt_username"
+                        android:elevation="@dimen/_2sdp"
+                        android:focusable="false"
+                        android:hint="@string/yearBirth"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/_10sdp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lnDateOfBirth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+            </FrameLayout>
+
+
+            <EditText
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:id="@+id/edtEmailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/background_edt_username"
+                android:elevation="@dimen/_2sdp"
+                android:hint="@string/mailInput"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/_10sdp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:buttonTint="@color/white"
+                    android:text="@string/male"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/radFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:buttonTint="@color/white"
+                    android:text="@string/female"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <Button
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/background_btn_login"
+                android:elevation="@dimen/_2sdp"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/register"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

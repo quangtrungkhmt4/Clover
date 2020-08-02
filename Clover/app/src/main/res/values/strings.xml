@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Clover</string>
+    <string name="internet_error">Kết nối mạng không ổn định!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logo">Clover</string>
+    <string name="userNameInput">Tên tài khoản...</string>
+    <string name="passwordInput">Mật khẩu...</string>
+    <string name="forgotPassword">Quên mật khẩu?</string>
+    <string name="login">Đăng nhập</string>
+    <string name="dontHaveAnAccount">Bạn chưa có tài khoản?</string>
+    <string name="register">Đăng ký</string>
+    <string name="dateBirth">Ngày...</string>
+    <string name="monthBirth">Tháng...</string>
+    <string name="yearBirth">Năm sinh</string>
+    <string name="mailInput">Địa chỉ mail...</string>
+    <string name="male">Name</string>
+    <string name="female">Nữ</string>
+    <string name="pleaseInputFullInfo">Bạn vui lòng nhập đủ thông tin.</string>
+    <string name="notiForgotPass">Mật khẩu mới đã được gửi qua địa chỉ mail.</string>
+    <string name="twoPassNotEqual">Hai mật khẩu không khớp.</string>
+    <string name="mailInvalid">Địa chỉ mail không hợp lệ.</string>
+    <string name="newFeed">Bảng tin</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="message">Tin nhắn</string>
+    <string name="profile">Thông tin</string>
+    <string name="nameInput">Họ và tên...</string>
+    <string name="unknownError">Lỗi không xác định.</string>
+    <string name="wrongDataFormat">Sai định dạng dữ liệu.</string>
+    <string name="userNameIsExists">Tên tài khoản đã tồn tại.</string>
+    <string name="tokenExpired">Phiên đăng nhập hết hạn.</string>
+    <string name="mailIsExists">Địa chỉ mail đã được sử dụng.</string>
+    <string name="wrongUserOrPass">Tên đăng nhập hoặc mật khẩu chưa chính xác.</string>
+    <string name="confirmForgotPass">Vui lòng nhập tên tài khoản và địa chỉ mail đăng ký vào ô tên tài khoản cách nhau bởi dấu phẩy.</string>
+</resources>
